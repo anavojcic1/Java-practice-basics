@@ -1,8 +1,9 @@
+/*You have a list of strings and you want to keep only those that start with an
+“A” and you want to return them in lower case*/
+
 import java.util.ArrayList;
 import java.util.List;
 
-//You have a list of strings and you want to keep only those that start with an
-//“A” and you want to return them in lower case
 public class AList {
     public static void main(String[] args) {
         List<String> aList = new ArrayList<>();
