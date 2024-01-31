@@ -4,11 +4,15 @@ public class ReversedString {
     public static void main(String[] args) {
         String string = "Hello world";
         String reversedString = "";
+        
+        //using built-in java method "reverse"
+        
 //        StringBuilder s1 = new StringBuilder(s);
 //        s1.reverse();
 //        System.out.println(s1.toString());
-//    }
+//    } OR
         //using for loop
+        
         for (int i = string.length() -1 ; i >= 0; i--) {
             reversedString += string.charAt(i);
         }
